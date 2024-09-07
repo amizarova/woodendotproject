@@ -1,0 +1,50 @@
+.nav {
+    width: 1440px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #e4e4e4;
+    margin-bottom: 60px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-header {
+    color: black;
+}
+
+.empty-element {
+    width: 200px;
+}
+
+.content {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;  
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.advantages-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.images-of-examples {
+    display: flex;
+    flex-direction: row;
+}
