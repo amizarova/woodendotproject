@@ -50,10 +50,61 @@
     flex-direction: row;
 }
 
-.marketing {
+.marketing-right {
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 20px;
+    text-align: right;
+}
+
+.marketing-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+    text-align: left;
+}
+
+.mark-alingment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mark-head {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.mark-name {
+    font-size: 18px;
+    font-size: 400;
+    font-style: italic;
+}
+
+.mark-price {
+    font-size: 15px;
+    font-size: 400;
+}
+
+.mark-description {
+    font-size: 18px;
+    font-size: 400;
+    color: #525252;
+}
+
+.mark-link {
+    font-size: 17px;
+    font-size: 400;
+    text-decoration: underline;
+}
+
+.mark-favorite {
+    color: #BC1414;
+    font-size: 14px;
+    font-size: 400;
+    font-style: italic;
 }
 
 .pieces {
@@ -152,5 +203,63 @@
     width: 1440px;
     height: 448px;
     background-color:#dfdfdf;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 150px;
+}
+
+.footer-entitlement {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 12px;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-header {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.footer-menu-options {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-menu-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.newsletter-button {
+    padding-left: 40px;
+    padding-right: 40px;
 }
